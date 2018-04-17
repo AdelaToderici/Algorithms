@@ -85,10 +85,48 @@ namespace SearchRotatedArray
             //   Console.Write(String.Join(", ", result));
             //   Console.Read();
 
-         //   int[] A = new int[] { 7, 2, 4, 14, 1, 9, 5, 14 };
-         //   var result = MaximumSellProfit.FindMaximumSellProfit(A);
-         //   Console.Write(result);
-         //   Console.Read();
+            //   int[] A = new int[] { 7, 2, 4, 14, 1, 9, 5, 14 };
+            //   var result = MaximumSellProfit.FindMaximumSellProfit(A);
+            //   Console.Write(result);
+            //   Console.Read();
+
+            //   int[] A = new int[] { 1, 2, 5, 4, -1, -2, 3 };
+            //   QuickSort.QuickSortArray(A, 0, A.Length - 1);
+            //   Console.Write(String.Join(", ", A));
+            //   Console.Read();
+
+            //  List<Interval> list = new List<Interval>();
+            //  list.Add(new Interval(1, 3));
+            //  list.Add(new Interval(2, 4));
+            //  list.Add(new Interval(5, 7));
+            //  list.Add(new Interval(6, 8));
+            //
+            //  var result = OverlappingInterval.MergeOverlappingIntervals(list);
+            //  Console.WriteLine(String.Join(", ", result));
+            //  Console.Read();
+
+            //   int[] A = new int[] { 5, 7, 1, 2, 8, 4, 3 };
+            //   Tuple<int, int> result = TwoValuesSum.FindTwoValuesForSum(A, 10);
+            //
+            //   if (result != null)
+            //   {
+            //       Console.Write("(" + result.Item1 + ", " + result.Item2 + ")");
+            //   } else
+            //   {
+            //       Console.Write("Result not found.");
+            //   }
+            //   
+            //   Console.Read();
+
+            Node n_28 = new Node(null, 28);
+            Node n_21 = new Node(n_28, 21);
+            Node n_14 = new Node(n_21, 14);
+            Node root = new Node(n_14, 7);
+
+            //var result = ReversedLinkedList.ReverseASinglyLinkedList(root);
+            var result = ReversedLinkedList.ReverseLinkListRecursively(root);
+            Console.Write(String.Join(", ", result));
+            Console.Read();
 
         }
     }

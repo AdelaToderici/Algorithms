@@ -46,10 +46,14 @@
     <Compile Include="LowHighIndex.cs" />
     <Compile Include="MaximumSellProfit.cs" />
     <Compile Include="MaxSlidingWindow.cs" />
+    <Compile Include="OverlappingInterval.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuickSort.cs" />
+    <Compile Include="ReversedLinkedList.cs" />
     <Compile Include="RotateArray.cs" />
     <Compile Include="SmallestNrSortedArrays.cs" />
+    <Compile Include="TwoValuesSum.cs" />
     <Compile Include="ZerosToLeft.cs" />
   </ItemGroup>
   <ItemGroup>
