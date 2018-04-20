@@ -42,7 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DeleteNodeLinkedList.cs" />
+    <Compile Include="DuplicatesLinkedList.cs" />
     <Compile Include="Heap.cs" />
+    <Compile Include="InsertionSort.cs" />
+    <Compile Include="InsertionSortLinkedList.cs" />
     <Compile Include="LowHighIndex.cs" />
     <Compile Include="MaximumSellProfit.cs" />
     <Compile Include="MaxSlidingWindow.cs" />

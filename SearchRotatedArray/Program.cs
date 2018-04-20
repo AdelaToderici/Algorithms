@@ -118,14 +118,53 @@ namespace SearchRotatedArray
             //   
             //   Console.Read();
 
-            Node n_28 = new Node(null, 28);
-            Node n_21 = new Node(n_28, 21);
-            Node n_14 = new Node(n_21, 14);
-            Node root = new Node(n_14, 7);
+            //   Node n_28 = new Node(null, 28);
+            //   Node n_21 = new Node(n_28, 21);
+            //   Node n_14 = new Node(n_21, 14);
+            //   Node root = new Node(n_14, 7);
+            //
+            //   //var result = ReversedLinkedList.ReverseASinglyLinkedList(root);
+            //   var result = ReversedLinkedList.ReverseLinkListRecursively(root);
+            //   Console.Write(String.Join(", ", result));
+            //   Console.Read();
 
-            //var result = ReversedLinkedList.ReverseASinglyLinkedList(root);
-            var result = ReversedLinkedList.ReverseLinkListRecursively(root);
-            Console.Write(String.Join(", ", result));
+            //   Node n_2_2 = new Node(null, 2);
+            //   Node n_4 = new Node(n_2_2, 4);
+            //   Node n_3_2 = new Node(n_4, 3);
+            //   Node n_3 = new Node(n_3_2, 3);
+            //   Node n_2 = new Node(n_3, 2);
+            //   Node root = new Node(n_2, 1);
+
+            //var result = DuplicatesLinkedList.RemoveDuplicates(root);
+
+            //var result = DeleteNodeLinkedList.DeleteNodeForGivenKey(root, 3);
+            //
+            //while (result != null)
+            //{
+            //    Console.Write(result.value+" -> ");
+            //    result = result.next;
+            //}
+
+            //   int[] A = new int[] { 7, 8, 5, 2, 4, 6, 3 };
+            //   var result = InsertionSort.SortArray(A);
+            //   Console.Write(String.Join(", ", result));
+            //
+            //   Console.Read();
+
+            Node n_3 = new Node(null, 3);
+            Node n_6 = new Node(n_3, 6);
+            Node n_4 = new Node(n_6, 4);
+            Node n_2 = new Node(n_4, 2);
+            Node n_5 = new Node(n_2, 5);
+            Node n_8 = new Node(n_5, 8);
+            Node root = new Node(n_8, 7);
+
+            var result = InsertionSortLinkedList.SortList(root);
+            while (result != null)
+            {
+                Console.Write(result.value+" -> ");
+                result = result.next;
+            }
             Console.Read();
 
         }
