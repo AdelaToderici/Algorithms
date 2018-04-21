@@ -10,42 +10,49 @@ namespace SearchRotatedArray
     {
         public static Node SortList(Node root)
         {
-            Node current = root;
+            if (root.next == null)
+                return root;
 
-            while (current.next != null)
+            Node current = root.next;
+            var max = int.MinValue;
+
+            while (current != null)
             {
-                if (current.next.value < current.value)
+                if (max < current.value)
+                    max = current.value;
+
+                var iterator = root; 
+
+                if(iterator.value>current.value)
                 {
-                    Node small = current.next;
-
-                    current.next = current.next.next;
-
-                    if (small.value < root.value)
-                    {
-                        Node oldRoot = root;
-                        root = small;
-                        root.next = oldRoot;
-                    }
-                    else
-                    {
-                        Node newCurrent = root;
-                        Node oldRoot = root;
-
-                        while (small.value > newCurrent.value)
-                        {
-                            Node oldNext = oldRoot.next;
-                            small.next = oldNext;
-                            oldRoot.next = small;
-
-                            newCurrent = newCurrent.next;
-                        }
-                    }
+                    var swappedNode = current;
+                    current = current.next;   
+                    swappedNode.next = iterator;
+                    root= swappedNode;
+                    continue;
                 }
-                else
-                {
-                    current = current.next;
-                }
+
+                while (iterator.next.value < current.value && iterator.next!=current)
+                { 
+                    iterator = iterator.next;
+                } 
+
+                var swappedNode2 = current;
+                current = current.next; 
+
+                    swappedNode2.next = iterator.next;
+                    iterator.next = swappedNode2;
             }
+
+            current = root;
+
+            while(current.value!=max)
+            {
+                current = current.next;
+            }
+
+            current.next = null;
+
 
             return root;
         }
