@@ -5,3 +5,10 @@ C:\Users\IonutTamas\Documents\Github\SearchRotatedArray\SearchRotatedArray\obj\D
 C:\Users\IonutTamas\Documents\Github\SearchRotatedArray\SearchRotatedArray\obj\Debug\SearchRotatedArray.csproj.CoreCompileInputs.cache
 C:\Users\IonutTamas\Documents\Github\SearchRotatedArray\SearchRotatedArray\obj\Debug\SearchRotatedArray.exe
 C:\Users\IonutTamas\Documents\Github\SearchRotatedArray\SearchRotatedArray\obj\Debug\SearchRotatedArray.pdb
+C:\Users\IonutTamas\Documents\Algorithms\SearchRotatedArray\bin\Debug\SearchRotatedArray.exe.config
+C:\Users\IonutTamas\Documents\Algorithms\SearchRotatedArray\bin\Debug\SearchRotatedArray.exe
+C:\Users\IonutTamas\Documents\Algorithms\SearchRotatedArray\bin\Debug\SearchRotatedArray.pdb
+C:\Users\IonutTamas\Documents\Algorithms\SearchRotatedArray\obj\Debug\SearchRotatedArray.csprojResolveAssemblyReference.cache
+C:\Users\IonutTamas\Documents\Algorithms\SearchRotatedArray\obj\Debug\SearchRotatedArray.csproj.CoreCompileInputs.cache
+C:\Users\IonutTamas\Documents\Algorithms\SearchRotatedArray\obj\Debug\SearchRotatedArray.exe
+C:\Users\IonutTamas\Documents\Algorithms\SearchRotatedArray\obj\Debug\SearchRotatedArray.pdb
